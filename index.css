@@ -3559,7 +3559,8 @@
   color: rgba(51, 51, 51, 1);
   font-size: 16px;
   font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
-  font-weight: NaN;
+  font-weight: bold !important;
+  color: #1a1a1a;
   text-align: center;
   white-space: nowrap;
   line-height: 16px;
@@ -3573,7 +3574,8 @@
   color: rgba(51, 51, 51, 1);
   font-size: 24px;
   font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
-  font-weight: NaN;
+  font-weight: bold !important;
+  color: #1a1a1a;
   text-align: left;
   white-space: nowrap;
   line-height: 24px;
@@ -3614,7 +3616,8 @@
   color: rgba(51, 51, 51, 1);
   font-size: 16px;
   font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
-  font-weight: NaN;
+  font-weight: bold !important;
+  color: #1a1a1a;
   text-align: center;
   white-space: nowrap;
   line-height: 16px;
@@ -3634,7 +3637,8 @@
   color: rgba(51, 51, 51, 1);
   font-size: 24px;
   font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
-  font-weight: NaN;
+  font-weight: bold !important;
+  color: #1a1a1a;
   text-align: left;
   white-space: nowrap;
   line-height: 24px;
@@ -3675,7 +3679,8 @@
   color: rgba(51, 51, 51, 1);
   font-size: 16px;
   font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
-  font-weight: NaN;
+  font-weight: bold !important;
+  color: #1a1a1a;
   text-align: center;
   white-space: nowrap;
   line-height: 16px;
@@ -3695,7 +3700,8 @@
   color: rgba(51, 51, 51, 1);
   font-size: 24px;
   font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
-  font-weight: NaN;
+  font-weight: bold !important;
+  color: #1a1a1a;
   text-align: left;
   white-space: nowrap;
   line-height: 24px;
@@ -3959,7 +3965,8 @@
   color: rgba(51, 51, 51, 1);
   font-size: 16px;
   font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
-  font-weight: NaN;
+  font-weight: bold !important;
+  color: #1a1a1a;
   text-align: center;
   white-space: nowrap;
   line-height: 16px;
@@ -3979,7 +3986,8 @@
   color: rgba(51, 51, 51, 1);
   font-size: 24px;
   font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
-  font-weight: NaN;
+  font-weight: bold !important;
+  color: #1a1a1a;
   text-align: left;
   white-space: nowrap;
   line-height: 24px;
