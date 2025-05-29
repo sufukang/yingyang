@@ -4379,3 +4379,17 @@
   white-space: nowrap;
   line-height: 0.63vw;
 }
+
+/* 美化维生素活力提示卡片中英文上下结构 */
+.text-wrapper_11, .text-wrapper_12, .text-wrapper_13, .text-wrapper_15, .text-wrapper_16, .text-wrapper_17 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.2;
+}
+.text_46, .text_49, .text_52, .text_56, .text_59, .text_62 {
+  color: #999 !important;
+  font-size: 0.7em !important;
+  margin-top: 2px !important;
+  font-weight: normal !important;
+}
