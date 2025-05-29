@@ -1727,7 +1727,7 @@
   margin-top: 0.11vw;
 }
 
-.group_18 {
+.box_24 {
   width: 0.32vw;
   height: 0.58vw;
   border: 2.120000123977661px solid rgba(164, 164, 164, 1);
@@ -4392,4 +4392,68 @@
   font-size: 0.7em !important;
   margin-top: 2px !important;
   font-weight: normal !important;
+}
+
+/* 首页三列功能区图标与文字上对齐 */
+.feature-row {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  min-height: 1.6vw !important;
+  margin-bottom: 0.2vw !important;
+}
+.feature-icon {
+  flex-shrink: 0 !important;
+  width: 1.2vw !important;
+  height: 1.2vw !important;
+  margin-right: 0.4vw !important;
+  margin-top: 0.1vw !important;
+}
+.feature-texts {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+}
+.feature-title {
+  color: #666 !important;
+  font-size: 0.68vw !important;
+  font-family: PingFang SC, Arial, sans-serif !important;
+  font-weight: 500 !important;
+  line-height: 1.05 !important;
+}
+.feature-sub {
+  color: #999 !important;
+  font-size: 0.6vw !important;
+  font-family: PingFang SC, Arial, sans-serif !important;
+  font-weight: 400 !important;
+  line-height: 1.05 !important;
+  margin-top: 0.05vw !important;
+}
+
+/* 导航栏悬停蓝色横线效果，唯一且优先级最高 */
+.nav-link {
+  position: relative !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  padding-bottom: 6px !important;
+  background: none !important;
+}
+.nav-link::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%) scaleX(0);
+  width: 60%;
+  height: 3px;
+  background: #0056d6;
+  border-radius: 2px;
+  transition: transform 0.2s;
+  z-index: 2;
+}
+.nav-link:hover::after,
+.nav-link.active::after {
+  transform: translateX(-50%) scaleX(1);
 }
