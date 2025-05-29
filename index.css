@@ -335,7 +335,7 @@
 
 .text-group_1 {
   width: 101px;
-  height: 40px;
+  height: 60px;
   overflow-wrap: break-word;
   color: rgba(51, 51, 51, 1);
   font-size: 14px;
@@ -371,7 +371,7 @@
   font-family: PingFang SC-Regular;
   font-weight: NaN;
   text-align: left;
-  line-height: 28px;
+  line-height: 14px;
   margin: 1px 0 0 6px;
 }
 
@@ -389,7 +389,7 @@
 
 .text-group_2 {
   width: 112px;
-  height: 12px;
+  height: 15px;
   overflow-wrap: break-word;
   color: rgba(51, 51, 51, 1);
   font-size: 14px;
