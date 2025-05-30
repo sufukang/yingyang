@@ -2,6 +2,10 @@
 const navLinks = document.querySelectorAll('.nav-link');
 navLinks.forEach(link => {
   link.addEventListener('click', function() {
+    // 切换active类
+    navLinks.forEach(l => l.classList.remove('active'));
+    this.classList.add('active');
+    // 锚点跳转
     const targetId = this.getAttribute('data-target');
     const target = document.getElementById(targetId);
     if (target) {
@@ -36,7 +40,7 @@ function switchToEn() {
   document.querySelector('.text_1').textContent = 'InYoung Tech';
   document.querySelector('.text_2').textContent = 'Know Nutrition, Balance Body & Mind';
   document.querySelector('.text_9').textContent = 'Beijing InYoung Tech';
-  document.querySelector('.text_10').textContent = 'AI Precision Nutrition Bioelectrical Monitoring';
+  document.querySelector('.text_10').textContent = 'AIPrecisionNutritionBioelectricalMonitoring';
   document.querySelector('.text_18').textContent = 'Frontier Research';
   document.querySelector('.text_108').textContent = 'Our Team';
   document.querySelector('.text_130').textContent = 'Financing Progress';
