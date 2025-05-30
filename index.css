@@ -3584,7 +3584,7 @@
 
 .text_138 {
   width: 326px;
-  height: 60px;
+  height: 100px;
   overflow-wrap: break-word;
   color: rgba(77, 77, 77, 1);
   font-size: 18px;
@@ -3659,9 +3659,9 @@
 }
 
 .image_36 {
-  width: 320px;
+  width: 220px;
   height: 179px;
-  margin: 15px 6 56px -9px;
+  margin-left: 10px;
 }
 
 .box_43 {
@@ -3724,7 +3724,7 @@
 .image_37 {
   width: 320px;
   height: 179px;
-  margin: 74px 0 50px 40px;
+  margin-left: 0px;
 }
 
 .text_145 {
