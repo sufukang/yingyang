@@ -40,7 +40,7 @@ function switchToEn() {
   document.querySelector('.text_1').textContent = 'InYoung Tech';
   document.querySelector('.text_2').textContent = 'Know Nutrition, Balance Body & Mind';
   document.querySelector('.text_9').textContent = 'Beijing InYoung Tech';
-  document.querySelector('.text_10').textContent = 'AIPrecisionNutritionBioelectricalMonitoring';
+  document.querySelector('.text_10').textContent = 'AI Bioelectrical Monitoring';
   document.querySelector('.text_18').textContent = 'Frontier Research';
   document.querySelector('.text_108').textContent = 'Our Team';
   document.querySelector('.text_130').textContent = 'Financing Progress';
