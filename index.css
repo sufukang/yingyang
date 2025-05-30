@@ -4416,3 +4416,40 @@
   width: 100%;
 }
 
+.timeline-carousel {
+  width: 100%;
+  max-width: 1600px;
+  margin: 40px auto 0 auto;
+  overflow: hidden;
+  position: relative;
+  min-height: 420px;
+  box-sizing: border-box;
+}
+.timeline-track {
+  display: flex;
+  transition: transform 0.7s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+}
+.timeline-card {
+  flex: 0 0 360px;
+  margin: 0 20px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 16px 0 rgba(0,0,0,0.08);
+  padding: 32px 24px 24px 24px;
+  box-sizing: border-box;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: box-shadow 0.2s;
+}
+.timeline-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 16px;
+}
+@media (max-width: 1500px) {
+  .timeline-carousel { max-width: 100vw; }
+}
+

@@ -77,4 +77,37 @@ function switchToZh() {
   document.querySelector('.text_160').textContent = '电子邮箱：info@inyoung.online';
   document.querySelector('.text_162').textContent = '联系方式：400-088-3376';
   document.querySelector('.text_164').textContent = '地址：北京市石龙经济开发区产业孵化中心';
-} 
+}
+
+// 动态信息轮播图无限循环，始终显示4张卡片
+(function() {
+  const track = document.querySelector('.timeline-track');
+  const cards = document.querySelectorAll('.timeline-card');
+  if (!track || cards.length === 0) return;
+  const cardCount = cards.length;
+  const cardWidth = cards[0].offsetWidth + 40; // 卡片宽+margin
+  let current = 0;
+
+  // 克隆前4张卡片到末尾，实现无缝循环
+  for (let i = 0; i < 4; i++) {
+    const clone = cards[i].cloneNode(true);
+    track.appendChild(clone);
+  }
+
+  function slide() {
+    current++;
+    track.style.transition = 'transform 0.7s cubic-bezier(.4,0,.2,1)';
+    track.style.transform = `translateX(${-cardWidth * current}px)`;
+
+    // 到达克隆区（第5~8张）时，瞬间回到原始区
+    if (current === cardCount) {
+      setTimeout(() => {
+        track.style.transition = 'none';
+        track.style.transform = `translateX(0px)`;
+        current = 0;
+      }, 700);
+    }
+  }
+
+  setInterval(slide, 3000); // 每3秒滑动一次
+})(); 
